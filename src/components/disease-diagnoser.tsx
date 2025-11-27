@@ -10,6 +10,7 @@ import { Alert, AlertDescription, AlertTitle } from './ui/alert';
 import { DiagnoseDiseaseInput, DiagnoseDiseaseOutput, diagnoseDisease } from '@/ai/flows/diagnose-disease';
 import { Badge } from './ui/badge';
 import jsPDF from 'jspdf';
+import { cn } from '@/lib/utils';
 
 type DiseaseDiagnoserProps = {
   diagnoseFunction: (input: DiagnoseDiseaseInput) => Promise<DiagnoseDiseaseOutput>;
