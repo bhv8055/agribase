@@ -27,19 +27,19 @@
     {
       "id": "animal-disease",
       "description": "A veterinarian examining a cow in a field.",
-      "imageUrl": "https://images.unsplash.com/photo-1654119848146-6f698c3c5b43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZXQlMjBjb3d8ZW58MHx8fHwxNzY0MjI0NzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1654119848146-6f698c3c5b43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZXQlMjBjb3d8ZW58MHx8fHwxNzY0MjI0NzI2fDA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "vet cow"
     },
     {
       "id": "sample-leaf",
       "description": "A clear image of a tomato leaf with visible spots, suitable for disease detection.",
-      "imageUrl": "https://images.unsplash.com/photo-1760627587738-d24809ffed98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b21hdG8lMjBsZWFmfGVufDB8fHx8MTc2NDIyNDcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1760627587738-d24809ffed98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b21hdG8lMjBsZWFmfGVufDB8fHx8MTc2NDIyNDcyNnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "tomato leaf"
     },
     {
       "id": "sample-animal",
       "description": "A side-view photo of a cow standing in a field.",
-      "imageUrl": "https://images.unsplash.com/photo-1511199791920-1675ac669a78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3clMjBmaWVsZHxlbnwwfHx8fDE3NjQyMjQ3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1511199791920-1675ac669a78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3clMjBmaWVsZHxlbnwwfHx8fDE3NjQyMjQ3MjZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "cow field"
     },
     {
