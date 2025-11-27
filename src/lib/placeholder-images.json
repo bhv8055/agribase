@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "home-hero",
+      "description": "A beautiful, lush green agricultural field under a clear blue sky.",
+      "imageUrl": "https://images.unsplash.com/photo-1723187137784-45f81b7253c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhZ3JpY3VsdHVyZSUyMGZpZWxkfGVufDB8fHx8MTc2NDEyMjQzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "agriculture field"
+    },
+    {
+      "id": "crop-recommendation",
+      "description": "A diverse field with various crops growing.",
+      "imageUrl": "https://images.unsplash.com/photo-1757170889407-62fbfa3114c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjcm9wJTIwZGl2ZXJzaXR5fGVufDB8fHx8MTc2NDIyNDcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crop diversity"
+    },
+    {
+      "id": "fertilizer-recommendation",
+      "description": "A person holding a handful of soil with fertilizer pellets.",
+      "imageUrl": "https://images.unsplash.com/photo-1709207514356-13d6a7a87c62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmZXJ0aWxpemVyJTIwc29pbHxlbnwwfHx8fDE3NjQyMjQ3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fertilizer soil"
+    },
+    {
+      "id": "crop-disease",
+      "description": "Close-up of a plant leaf with signs of a disease.",
+      "imageUrl": "https://images.unsplash.com/photo-1692481060581-98c224124f12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwbGFudCUyMGRpc2Vhc2V8ZW58MHx8fHwxNzY0MjE3ODc0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plant disease"
+    },
+    {
+      "id": "animal-disease",
+      "description": "A veterinarian examining a cow in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1654119848146-6f698c3c5b43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2ZXQlMjBjb3d8ZW58MHx8fHwxNzY0MjI0NzI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vet cow"
+    },
+    {
+      "id": "sample-leaf",
+      "description": "A clear image of a tomato leaf with visible spots, suitable for disease detection.",
+      "imageUrl": "https://images.unsplash.com/photo-1760627587738-d24809ffed98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx0b21hdG8lMjBsZWFmfGVufDB8fHx8MTc2NDIyNDcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tomato leaf"
+    },
+    {
+      "id": "sample-animal",
+      "description": "A side-view photo of a cow standing in a field.",
+      "imageUrl": "https://images.unsplash.com/photo-1511199791920-1675ac669a78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3clMjBmaWVsZHxlbnwwfHx8fDE3NjQyMjQ3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cow field"
+    }
+  ]
 }
