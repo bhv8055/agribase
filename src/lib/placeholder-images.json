@@ -41,6 +41,12 @@
       "description": "A side-view photo of a cow standing in a field.",
       "imageUrl": "https://images.unsplash.com/photo-1511199791920-1675ac669a78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3clMjBmaWVsZHxlbnwwfHx8fDE3NjQyMjQ3MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "cow field"
+    },
+    {
+      "id": "disease-detection-receipt",
+      "description": "A stylized icon for a medical or veterinary receipt.",
+      "imageUrl": "https://placehold.co/600x400/18A39A/FFFFFF/png?text=Receipt",
+      "imageHint": "receipt icon"
     }
   ]
 }
