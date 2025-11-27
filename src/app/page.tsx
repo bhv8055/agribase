@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Bug, Leaf, Stethoscope, TestTube2 } from "lucide-react";
+import { ArrowRight, Bug, Leaf, Stethoscope } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const features = [
@@ -12,13 +12,6 @@ const features = [
     icon: <Leaf className="h-8 w-8 text-primary" />,
     link: "/crop-recommendation",
     imageId: "crop-recommendation",
-  },
-  {
-    title: "Fertilizer Guide",
-    description: "Find the right fertilizer for your crops and soil type to ensure optimal growth and health.",
-    icon: <TestTube2 className="h-8 w-8 text-primary" />,
-    link: "/fertilizer-recommendation",
-    imageId: "fertilizer-recommendation",
   },
   {
     title: "Crop Disease Detection",
@@ -81,7 +74,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-4 mt-12">
+            <div className="mx-auto grid max-w-5xl items-start gap-8 sm:grid-cols-1 md:gap-12 lg:max-w-none lg:grid-cols-3 mt-12">
               {features.map((feature) => {
                 const featureImage = PlaceHolderImages.find(p => p.id === feature.imageId);
                 return (
