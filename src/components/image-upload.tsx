@@ -9,7 +9,7 @@ import { cn } from '@/lib/utils';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
 
 interface ImageUploadProps {
-  onImageSelect: (file: File) => void;
+  onImageSelect: (file: File, dataUrl: string) => void;
   onImageClear: () => void;
   exampleImage: ImagePlaceholder;
   uploadHint: string;
@@ -24,10 +24,11 @@ export function ImageUpload({ onImageSelect, onImageClear, exampleImage, uploadH
     if (file && file.type.startsWith('image/')) {
       const reader = new FileReader();
       reader.onloadend = () => {
-        setPreview(reader.result as string);
+        const dataUrl = reader.result as string;
+        setPreview(dataUrl);
+        onImageSelect(file, dataUrl);
       };
       reader.readAsDataURL(file);
-      onImageSelect(file);
     }
   };
   

@@ -21,18 +21,11 @@ const features = [
     imageId: "fertilizer-recommendation",
   },
   {
-    title: "Crop Disease Detection",
-    description: "Upload an image of a crop leaf to instantly detect diseases and get valuable insights.",
-    icon: <Bug className="h-8 w-8 text-primary" />,
-    link: "/crop-disease-detection",
-    imageId: "crop-disease",
-  },
-  {
-    title: "Animal Disease Prediction",
-    description: "Upload an image of your livestock to predict potential diseases and take preventive measures.",
+    title: "Disease Diagnosis",
+    description: "Upload an image of a crop or animal to instantly diagnose diseases and get valuable insights.",
     icon: <Stethoscope className="h-8 w-8 text-primary" />,
-    link: "/animal-disease-prediction",
-    imageId: "animal-disease",
+    link: "/disease-diagnosis",
+    imageId: "disease-diagnosis",
   },
 ];
 
@@ -81,7 +74,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-4 mt-12">
+            <div className="mx-auto grid max-w-sm items-start gap-8 sm:max-w-4xl sm:grid-cols-2 md:gap-12 lg:max-w-none lg:grid-cols-3 mt-12">
               {features.map((feature) => {
                 const featureImage = PlaceHolderImages.find(p => p.id === feature.imageId);
                 return (
