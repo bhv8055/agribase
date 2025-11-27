@@ -14,7 +14,7 @@ import { Toaster } from '@/components/ui/toaster';
 import { Button } from '@/components/ui/button';
 
 export const metadata: Metadata = {
-  title: 'AgriAssist AI',
+  title: 'Agrobase',
   description: 'AI-powered Agriculture Assistance Platform',
 };
 
@@ -38,7 +38,7 @@ export default function RootLayout({
                 <Link href="/">
                   <Leaf className="h-7 w-7 text-primary" />
                   <div className="flex flex-col items-start pl-2">
-                    <span className="font-headline text-lg font-semibold tracking-tight">AgriAssist AI</span>
+                    <span className="font-headline text-lg font-semibold tracking-tight">Agrobase</span>
                   </div>
                 </Link>
               </Button>

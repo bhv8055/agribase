@@ -49,7 +49,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative h-full flex flex-col items-center justify-center text-center text-white p-4">
             <h1 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter">
-              Welcome to AgriAssist AI
+              Welcome to Agrobase
             </h1>
             <p className="mt-4 max-w-2xl text-lg md:text-xl text-primary-foreground/80">
               Your AI-powered partner for smarter farming decisions. From crop selection to disease detection, we're here to help you grow.
@@ -101,7 +101,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-muted-foreground">&copy; 2024 AgriAssist AI. All rights reserved.</p>
+        <p className="text-xs text-muted-foreground">&copy; 2024 Agrobase. All rights reserved.</p>
       </footer>
     </div>
   );

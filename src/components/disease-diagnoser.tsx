@@ -69,7 +69,7 @@ export function DiseaseDiagnoser({
     const doc = new jsPDF();
     
     doc.setFontSize(22);
-    doc.text("AgriAssist AI - Diagnosis Report", 105, 20, { align: 'center' });
+    doc.text("Agrobase - Diagnosis Report", 105, 20, { align: 'center' });
     doc.setFontSize(12);
     doc.text(`Date: ${new Date().toLocaleDateString()}`, 105, 28, { align: 'center' });
 
@@ -112,7 +112,7 @@ export function DiseaseDiagnoser({
       doc.text(`Address: ${result.veterinaryInfo.address}`, 20, 59);
     }
     
-    doc.save(`agriassist-report-${result.diseaseName.replace(/\s+/g, '-')}.pdf`);
+    doc.save(`agrobase-report-${result.diseaseName.replace(/\s+/g, '-')}.pdf`);
   };
 
   return (
